@@ -12,7 +12,7 @@ const MediumCard = ({img, title}) => {
                 className='rounded-xl'
             />
         </div>
-        <h3 className='text-2xl mt-3'>{title}</h3>
+        <h3 className='text-2xl mt-3 text-gray-300'>{title}</h3>
     </div>
   )
 }
