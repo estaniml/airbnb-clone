@@ -16,9 +16,9 @@ export default function Home({exploreData, cardsData}) {
         <title>Airbnb</title>
       </Head>
 
-      <div className='absolute top-32 left-10 z-40 bg-gray-100 p-4 rounded-xl shadow-lg flex items-center space-x-4 w-96  animate-bounce'>
-        <ExclamationCircleIcon className='text-red-500 w-12' />
-        <p>This <strong>is not</strong> the real Airbnb webpage.<br /> Its just a <strong>clone</strong> for practice</p>
+      <div className='absolute top-32 left-10 z-40 bg-rose-500 p-4 rounded-xl shadow-lg flex items-center space-x-4 w-96  animate-bounce'>
+        <ExclamationCircleIcon className='text-white w-12' />
+        <p className='text-white '>This <strong>is not</strong> the real Airbnb webpage.<br /> Its just a <strong>clone</strong> for practice</p>
       </div>
 
       <Header />
